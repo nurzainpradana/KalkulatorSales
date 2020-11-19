@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnHitung;
 
     String nama;
-    Integer harga, dp, tenor, bunga;
+    Double harga, dp, tenor, bunga;
 
     static String NAMA_KEY = "nama_key";
     static String HARGA_KEY = "harga_key";
@@ -58,10 +58,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void ambilData() {
         nama = etNama.getText().toString();
-        harga = Integer.parseInt(etHarga.getText().toString());
-        dp = Integer.parseInt(etDP.getText().toString());
-        tenor = Integer.parseInt(etTenor.getText().toString());
-        bunga = Integer.parseInt(etBunga.getText().toString());
+        harga = Double.parseDouble(etHarga.getText().toString());
+        dp = Double.parseDouble(etDP.getText().toString());
+        tenor = Double.parseDouble(etTenor.getText().toString());
+        bunga = Double.parseDouble(etBunga.getText().toString());
     }
 
 

@@ -26,36 +26,38 @@
             android:textAlignment="center"
             android:textColor="@color/red"
             android:textSize="24sp"
-            android:textStyle="bold"
-            android:layout_marginTop="16dp"/>
+            android:textStyle="bold"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/nama_text"
+            android:fontFamily="@font/poppins"
             android:layout_marginTop="16dp"/>
         <TextView
             android:id="@+id/tv_nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
             tools:text="@string/nama_text"
             android:layout_marginTop="8dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/harga_motor_text"
+            android:fontFamily="@font/poppins"
             android:layout_marginTop="16dp"/>
         <TextView
             android:id="@+id/tv_harga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
             tools:text="@string/harga_motor_text"
             android:layout_marginTop="8dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/dp_text"
+            android:fontFamily="@font/poppins"
             android:layout_marginTop="16dp"/>
         <TextView
             android:id="@+id/tv_dp"
@@ -68,48 +70,52 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pokok_hutang_text"
+            android:fontFamily="@font/poppins"
             android:layout_marginTop="16dp"/>
         <TextView
             android:id="@+id/tv_pokok_hutang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
             tools:text="@string/pokok_hutang_text"
             android:layout_marginTop="8dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/pokok_hutang_text"
+            android:text="@string/tenor_text"
+            android:fontFamily="@font/poppins"
             android:layout_marginTop="16dp"/>
         <TextView
             android:id="@+id/tv_tenor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
             tools:text="@string/tenor_text"
             android:layout_marginTop="8dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/total_bunga_text"
+            android:fontFamily="@font/poppins"
             android:layout_marginTop="16dp"/>
         <TextView
             android:id="@+id/tv_total_bunga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
             tools:text="@string/total_bunga_text"
             android:layout_marginTop="8dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/total_hutang_text"
+            android:fontFamily="@font/poppins"
             android:layout_marginTop="16dp"/>
         <TextView
             android:id="@+id/tv_total_hutang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
             tools:text="@string/total_hutang_text"
             android:layout_marginTop="8dp"/>
 
@@ -117,14 +123,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/angsuran_text"
+            android:fontFamily="@font/poppins"
             android:layout_marginTop="16dp"/>
         <TextView
             android:id="@+id/tv_angsuran"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
             tools:text="@string/angsuran_text"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
     </LinearLayout>
 
 </ScrollView>

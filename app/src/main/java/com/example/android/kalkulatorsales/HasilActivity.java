@@ -15,7 +15,7 @@ import static com.example.android.kalkulatorsales.MainActivity.TENOR_KEY;
 public class HasilActivity extends AppCompatActivity {
     TextView tvNama, tvHarga, tvDP, tvPokokHutang, tvTotalBunga, tvTotalHutang, tvAngsuran, tvTenor;
     String nama;
-    Integer harga, dpPersen, dp, pokokHutang, totalBunga, totalHutang, angsuran, tenor, bunga;
+    Double harga, dpPersen, dp, pokokHutang, totalBunga, totalHutang, angsuran, tenor, bunga;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,10 +39,10 @@ public class HasilActivity extends AppCompatActivity {
     private void ambilDataDariIntent() {
         // Mengambil Data Dari Intent
         nama = getIntent().getStringExtra(NAMA_KEY);
-        harga = getIntent().getIntExtra(HARGA_KEY, 0);
-        dpPersen = getIntent().getIntExtra(DP_KEY, 0);
-        tenor = getIntent().getIntExtra(TENOR_KEY, 0);
-        bunga = getIntent().getIntExtra(BUNGA_KEY, 0);
+        harga = getIntent().getDoubleExtra(HARGA_KEY, 0);
+        dpPersen = getIntent().getDoubleExtra(DP_KEY, 0);
+        tenor = getIntent().getDoubleExtra(TENOR_KEY, 0);
+        bunga = getIntent().getDoubleExtra(BUNGA_KEY, 0);
 
         // Menghitung DP, Pokok Hutang, Total Hutang, Total Bunga dan Angsuran
         dp = harga * dpPersen / 100;
