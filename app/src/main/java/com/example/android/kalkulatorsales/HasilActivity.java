@@ -13,7 +13,7 @@ import static com.example.android.kalkulatorsales.MainActivity.NAMA_KEY;
 import static com.example.android.kalkulatorsales.MainActivity.TENOR_KEY;
 
 public class HasilActivity extends AppCompatActivity {
-    TextView tvNama, tvHarga, tvDP, tvPokokHutang, tvTotalBunga, tvTotalHutang, tvAngsuran;
+    TextView tvNama, tvHarga, tvDP, tvPokokHutang, tvTotalBunga, tvTotalHutang, tvAngsuran, tvTenor;
     String nama;
     Integer harga, dpPersen, dp, pokokHutang, totalBunga, totalHutang, angsuran, tenor, bunga;
 
@@ -30,6 +30,7 @@ public class HasilActivity extends AppCompatActivity {
         tvTotalBunga = findViewById(R.id.tv_total_bunga);
         tvTotalHutang = findViewById(R.id.tv_total_hutang);
         tvAngsuran = findViewById(R.id.tv_angsuran);
+        tvTenor = findViewById(R.id.tv_tenor);
 
         // Menjalankan Function ambilDataDariIntent()
         ambilDataDariIntent();
@@ -58,5 +59,6 @@ public class HasilActivity extends AppCompatActivity {
         tvTotalBunga.setText(String.valueOf(totalBunga));
         tvTotalHutang.setText(String.valueOf(totalHutang));
         tvAngsuran.setText(String.valueOf(angsuran));
+        tvTenor.setText(String.valueOf(tenor));
     }
 }
