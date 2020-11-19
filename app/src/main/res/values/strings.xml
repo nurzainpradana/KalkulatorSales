@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KalkulatorSales</string>
+    <string name="kalkulator_sales_text">Kalkulator Sales</string>
+    <string name="nama_text">Nama</string>
+    <string name="harga_motor_text">Harga Motor</string>
+    <string name="dp_text">DP</string>
+    <string name="tenor_text">Tenor</string>
+    <string name="bunga_text">Bunga</string>
+    <string name="hitung_text">Hitung</string>
+    <string name="pokok_hutang_text">Pokok Hutang</string>
+    <string name="total_bunga_text">Total Bunga</string>
+    <string name="total_hutang_text">Total Hutang</string>
+    <string name="angsuran_text">Angsuran</string>
+    <string name="develop_by_zain">Develop By Zain</string>
+    <string name="hasil_perhitungan_text">Hasil Perhitungan</string>
+</resources>
